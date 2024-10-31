@@ -1,6 +1,7 @@
 package com.mj.quicktestpro.entity.exam;
 import com.mj.quicktestpro.dto.exam.CategoryType;
 import com.mj.quicktestpro.dto.exam.TimeType;
+import com.mj.quicktestpro.entity.userType.ExaminerType;
 import com.mj.quicktestpro.entity.userType.ParticipantType;
 import jakarta.persistence.*;
 import lombok.*;
@@ -25,7 +26,7 @@ public class ExamInstance {
 
     @ManyToOne
     @JoinColumn(name = "examiner_id")
-    private QuestionInstance.ExaminerType examinerClass;
+    private ExaminerType examinerClass;
     private String sessionName;
     private String sessionDescription;
 

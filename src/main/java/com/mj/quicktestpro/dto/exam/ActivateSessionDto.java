@@ -14,13 +14,5 @@ public class ActivateSessionDto {
     private String examinerId;
     private String sessionId;
 
-    @AllArgsConstructor
-    @NoArgsConstructor
-    @Builder
-    @Data
-    public static class AnswerResponseDto {
 
-        private Long id;
-        private String response;
-    }
 }

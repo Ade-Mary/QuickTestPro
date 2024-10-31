@@ -1,5 +1,4 @@
 package com.mj.quicktestpro.entity.userType;
-import com.mj.quicktestpro.UserType.UserType;
 import com.mj.quicktestpro.entity.exam.ExamInstance;
 import jakarta.persistence.*;
 import lombok.*;

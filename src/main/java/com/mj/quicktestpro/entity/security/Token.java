@@ -1,5 +1,5 @@
 package com.mj.quicktestpro.entity.security;
-import com.mj.quicktestpro.UserType.UserType;
+import com.mj.quicktestpro.entity.userType.UserType;
 import jakarta.persistence.*;
 import lombok.*;
 
