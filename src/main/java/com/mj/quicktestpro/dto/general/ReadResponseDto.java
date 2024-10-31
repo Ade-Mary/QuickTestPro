@@ -1,5 +1,5 @@
 package com.mj.quicktestpro.dto.general;
-import com.mj.quicktestpro.dto.ExamResponseDto;
+import com.mj.quicktestpro.dto.exam.ExamResponseDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

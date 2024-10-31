@@ -1,4 +1,5 @@
-package com.mj.quicktestpro.dto;
+package com.mj.quicktestpro.dto.exam;
+import com.mj.quicktestpro.dto.exam.ActivateSessionDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
