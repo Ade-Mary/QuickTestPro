@@ -14,5 +14,5 @@ public class SubmitScoreDto {
 
     private String sessionId;
     private String participantId;
-    List<ActivateSessionDto.AnswerResponseDto> answerResponseDtoList;
+    List<AnswerResponseDto> answerResponseDtoList;
 }
