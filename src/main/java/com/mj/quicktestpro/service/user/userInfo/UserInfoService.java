@@ -7,11 +7,14 @@ import com.mj.quicktestpro.dto.user.UserInfoUpdateDto;
 import com.mj.quicktestpro.entity.userType.UserType;
 import com.mj.quicktestpro.exception.ResourceNotFoundException;
 import com.mj.quicktestpro.repository.user.UserRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
+@Service
+@AllArgsConstructor
 public class UserInfoService implements UserInfoServiceInterface {
 
     private UserRepository userRepository;

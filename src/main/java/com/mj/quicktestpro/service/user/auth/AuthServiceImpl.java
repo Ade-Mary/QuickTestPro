@@ -1,8 +1,18 @@
 package com.mj.quicktestpro.service.user.auth;
 
+import com.mj.quicktestpro.config.JWTService;
 import com.mj.quicktestpro.dto.email.EmailDetails;
+import com.mj.quicktestpro.dto.general.ResponseDto;
+import com.mj.quicktestpro.dto.general.UserResponseDto;
+import com.mj.quicktestpro.dto.user.UserLoginDto;
+import com.mj.quicktestpro.dto.user.UserRegisterDto;
 import com.mj.quicktestpro.entity.security.Token;
+import com.mj.quicktestpro.entity.security.TokenType;
+import com.mj.quicktestpro.entity.userType.RoleEnum;
 import com.mj.quicktestpro.entity.userType.UserType;
+import com.mj.quicktestpro.repository.security.TokenRepository;
+import com.mj.quicktestpro.repository.user.UserRepository;
+import com.mj.quicktestpro.service.user.email.EmailServiceInterface;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -70,6 +80,8 @@ public class AuthServiceImpl implements AuthServiceInterface {
                 .build(),
                 HttpStatus.CREATED);
     }
+
+
 
     @Override
     public ResponseEntity<ResponseDto> loginUser(UserLoginDto userLoginDto) {

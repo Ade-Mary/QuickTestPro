@@ -1,9 +1,7 @@
 package com.mj.quicktestpro.service.user.role;
 import com.mj.quicktestpro.dto.email.EmailDetails;
 import com.mj.quicktestpro.dto.general.ResponseUserTypeDto;
-import com.mj.quicktestpro.entity.userType.ExaminerType;
-import com.mj.quicktestpro.entity.userType.ParticipantType;
-import com.mj.quicktestpro.entity.userType.UserType;
+import com.mj.quicktestpro.entity.userType.*;
 import com.mj.quicktestpro.repository.user.ExaminerRepository;
 import com.mj.quicktestpro.repository.user.ParticipantRepository;
 import com.mj.quicktestpro.repository.user.UserRepository;

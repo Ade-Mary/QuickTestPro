@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 
 public interface AuthServiceInterface {
 
-    ResponseEntity<ResponseDto> registerUser(UserRegisterDto userRegister);
     ResponseEntity<ResponseDto> loginUser(UserLoginDto userLoginDto);
 
     ResponseEntity<ResponseDto> registerUser(UserRegisterDto userRegister);
